@@ -143,6 +143,7 @@ rm -rf %{buildroot}%{gem_instdir}/misc
 %files
 %doc LICENSE COPYRIGHT
 %doc %{gem_docdir}
+%doc %{docdir}
 %{gem_instdir}
 %{gem_cache}
 %{gem_spec}
