@@ -2,9 +2,9 @@
     %global scl ruby193
     %global scl_prefix ruby193-
 %endif
-%global gem_name openshift-origin-auth-mongo
 %{!?scl:%global pkg_name %{name}}
 %{?scl:%scl_package rubygem-%{gem_name}}
+%global gem_name openshift-origin-auth-mongo
 %global rubyabi 1.9.1
 
 Summary:       OpenShift plugin for mongo auth service
